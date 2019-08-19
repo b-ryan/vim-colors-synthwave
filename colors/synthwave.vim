@@ -1,15 +1,15 @@
 " Vim color file - synthwave
 " Designed by Troy Fletcher TroyFletcher.net
-"                                                                                   
-"                               dP   dP                                             
-"                               88   88                                             
-"  .d8888b. dP    dP 88d888b. d8888P 88d888b. dP  dP  dP .d8888b. dP   .dP .d8888b. 
-"  Y8ooooo. 88    88 88'  `88   88   88'  `88 88  88  88 88'  `88 88   d8' 88ooood8 
-"        88 88.  .88 88    88   88   88    88 88.88b.88' 88.  .88 88 .88'  88.  ... 
-"  `88888P' `8888P88 dP    dP   dP   dP    dP 8888P Y8P  `88888P8 8888P'   `88888P' 
-"                .88                                                                
-"            d8888P                                                                 
-"                                                                                   
+"
+"                               dP   dP
+"                               88   88
+"  .d8888b. dP    dP 88d888b. d8888P 88d888b. dP  dP  dP .d8888b. dP   .dP .d8888b.
+"  Y8ooooo. 88    88 88'  `88   88   88'  `88 88  88  88 88'  `88 88   d8' 88ooood8
+"        88 88.  .88 88    88   88   88    88 88.88b.88' 88.  .88 88 .88'  88.  ...
+"  `88888P' `8888P88 dP    dP   dP   dP    dP 8888P Y8P  `88888P8 8888P'   `88888P'
+"                .88
+"            d8888P
+"
 " Test ALL THE SYNTAX!!!  so $VIMRUNTIME/syntax/hitest.vim
 set background=dark
 if version > 580
@@ -67,7 +67,7 @@ hi Statement guifg=#6cddf1 guibg=NONE guisp=NONE gui=bold ctermfg=81 ctermbg=NON
 hi SpellRare guifg=#F9F9FF guibg=#192224 guisp=#192224 gui=underline ctermfg=189 ctermbg=235 cterm=underline
 hi ColorColumn guifg=NONE guibg=#536991 guisp=NONE ctermfg=NONE ctermbg=60 cterm=NONE
 hi OverColLimit term=inverse,bold cterm=bold ctermbg=red ctermfg=white gui=bold guibg=red guifg=white
-hi Comment guifg=#9c38bd guibg=#000000 guisp=NONE gui=NONE ctermfg=5 ctermbg=0 cterm=NONE
+hi Comment guifg=#9c38bd guibg=NONE guisp=NONE gui=NONE ctermfg=5 ctermbg=NONE cterm=NONE
 hi Character guifg=#A1A6A8 guibg=NONE guisp=NONE gui=NONE ctermfg=248 ctermbg=NONE cterm=NONE
 hi Float guifg=#A1A6A8 guibg=NONE guisp=NONE gui=NONE ctermfg=248 ctermbg=NONE cterm=NONE
 hi Number guifg=#ff00bb guibg=NONE guisp=NONE gui=NONE ctermfg=199 ctermbg=NONE cterm=NONE
